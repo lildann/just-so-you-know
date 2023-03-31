@@ -3,14 +3,14 @@ import { useState } from "react";
 function ReportPage() {
     const [name, setName] = useState("");
     const [location, setLocation] = useState("");
-    const [date, setDate] = useState("");
-    const [description, setDescription] = useState("");
+    const [descriptionVenue, setDescriptionVenue] = useState("");
+    const [rating, setRating] = useState("");
    
   
     const handleSubmit = (event) => {
       event.preventDefault();
   
-      const newReport = { name, location,date,description };
+      const newReport = { name, location,descriptionVenue,rating};
   
       fetch("http://localhost:8000/venues", {
         method: "POST",
@@ -24,8 +24,8 @@ function ReportPage() {
         });
       setName("");
       setLocation("");
-      setDate("");
-      setDescription("")
+      setDescriptionVenue("");
+      setRating("")
     };
   
     return (
@@ -50,21 +50,21 @@ function ReportPage() {
           />
         </label>
         <label>
-          Date:
-          <input
-            type="date"
-            required
-            value={date}
-            onChange={(e) => setDate(e.target.value)}
-          />
-        </label>
-        <label>
-          Description:
+          Description of Venue:
           <input
             type="text"
             required
-            value={description}
-            onChange={(e) => setDescription(e.target.value)}
+            value={descriptionVenue}
+            onChange={(e) => setDescriptionVenue(e.target.value)}
+          />
+        </label>
+        <label>
+          Rating:
+          <input
+            type="text"
+            required
+            value={rating}
+            onChange={(e) => setRating(e.target.value)}
           />
         </label>
         <button type="submit">Add</button>

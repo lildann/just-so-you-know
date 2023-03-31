@@ -1,11 +1,10 @@
-
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
-// import ReactDOM from "react-dom/client";
 import LandingPage from "./pages/LandingPage"
-import ReportPage from "../src/pages/ReportPage"
+import ReportPage from "./pages/ReportPage"
+import VenuePage from "./pages/VenuePage";
 
 
 function App() {
@@ -13,12 +12,11 @@ function App() {
   <Routes>
     <Route path="/" element={<LandingPage/>} />
     <Route path="/report" element={<ReportPage/>} />
+    <Route path="/venue" element={<VenuePage/>} />
   </Routes></>
        
   );
 }
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(<App />);
 
 export default App;
