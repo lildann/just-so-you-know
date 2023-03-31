@@ -3,30 +3,37 @@
     {
       "name": "Club 1",
       "location": "location1",
-      "date": "2023-02-15",
-      "description": "bad",
+      "descriptionVenue": "bar",
+      "rating": 4,
       "id": 1
     },
     {
       "name": "Club 2",
       "location": "location3",
-      "date": "2023-01-25",
-      "description": "bad",
+      "descriptionVenue": "bar",
+      "rating": 2,
       "id": 2
     },
     {
       "name": "Club 3",
       "location": "location3",
-      "date": "2023-01-20",
-      "description": "good",
+      "descriptionVenue": "club",
+      "rating": 1,
       "id": 3
     },
     {
       "name": "Venue test",
       "location": "124 Street",
-      "date": "2023-03-18",
-      "description": "uncomfortable experience",
+      "descriptionVenue": "club",
+      "rating": 3,
       "id": 4
+    },
+    {
+      "name": "Test 2",
+      "location": "123 Test",
+      "descriptionVenue": "Club",
+      "rating": "2",
+      "id": 5
     }
   ]
 }
