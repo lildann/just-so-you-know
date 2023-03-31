@@ -1,39 +1,53 @@
 {
   "venues": [
     {
-      "name": "Club 1",
-      "location": "location1",
-      "descriptionVenue": "bar",
+      "name": "Pegola Paddington",
+      "location": "5 Kingdom St, London, W2 6PY",
+      "descriptionVenue": "Bar",
       "rating": 4,
       "id": 1
     },
     {
-      "name": "Club 2",
-      "location": "location3",
-      "descriptionVenue": "bar",
+      "name": "Elements",
+      "location": "3 Kingdom St, London, W2 6BD",
+      "descriptionVenue": "Restaurant",
       "rating": 2,
       "id": 2
     },
     {
-      "name": "Club 3",
-      "location": "location3",
+      "name": "Pure",
+      "location": "2 Kingdom St, London, W2 6BD",
       "descriptionVenue": "club",
       "rating": 1,
       "id": 3
     },
     {
-      "name": "Venue test",
-      "location": "124 Street",
-      "descriptionVenue": "club",
+      "name": "Prince of Wales",
+      "location": "2 Cleveland Terrace, London, W2 5LH",
+      "descriptionVenue": "Restaurant",
       "rating": 3,
       "id": 4
     },
     {
-      "name": "Test 2",
-      "location": "123 Test",
-      "descriptionVenue": "Club",
+      "name": "The Cleveland Arms",
+      "location": "28 Chilworth Street, London, W2 6DT",
+      "descriptionVenue": "Restaurant",
       "rating": "2",
       "id": 5
+    },
+    {
+      "name": "Blizzaro",
+      "location": "18-22 Craven Road, London, W2 3PX",
+      "descriptionVenue": "Restaurant",
+      "rating": "5",
+      "id": 6
+    },
+    {
+      "name": "The Bear",
+      "location": "29 Spring Street, London, W2 1JA",
+      "descriptionVenue": "Pub",
+      "rating": "1",
+      "id": 7
     }
   ]
 }
