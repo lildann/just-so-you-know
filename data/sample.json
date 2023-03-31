@@ -1,34 +1,32 @@
 {
-    "venues": [
-      {
-        "name": "Club 1",
-        "date": "1990-01-15",
-        "id": 1
-      },
-      {
-        "name": "Pub 1",
-        "date": "1992-10-14",
-        "id": 2
-      },
-      {
-        "name": "Pub 4",
-        "date": "1994-04-07",
-        "id": 3
-      },
-      {
-        "name": "Pub 2",
-        "date": "2023-04-08",
-        "id": 4
-      },
-      {
-        "name": "Lucy's Bar",
-        "date": "2023-03-24",
-        "id": 5
-      },
-      {
-        "name": "X Club",
-        "dob": "2023-04-08",
-        "id": 6
-      }
-    ]
+  "venues": [
+    {
+      "name": "Club 1",
+      "location": "location1",
+      "date": "2023-02-15",
+      "description": "bad",
+      "id": 1
+    },
+    {
+      "name": "Club 2",
+      "location": "location3",
+      "date": "2023-01-25",
+      "description": "bad",
+      "id": 2
+    },
+    {
+      "name": "Club 3",
+      "location": "location3",
+      "date": "2023-01-20",
+      "description": "good",
+      "id": 3
+    },
+    {
+      "name": "Venue test",
+      "location": "124 Street",
+      "date": "2023-03-18",
+      "description": "uncomfortable experience",
+      "id": 4
+    }
+  ]
 }
