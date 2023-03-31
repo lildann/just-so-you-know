@@ -19,7 +19,13 @@
   margin: auto;
 }
 
-h1 {
+.secondary-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  bottom: 0;
+
 }
 
 /* .App-logo {
