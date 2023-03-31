@@ -16,7 +16,7 @@ const LandingPage = () => {
       <h1>Just So You Know</h1>
       <h1>Check My Evening</h1>
       <div>
-      <button onClick={()=>navigate("/venue")}>Search</button>
+      <button onClick={()=>navigate("/venue")}>Find a venue</button>
       </div>
       <div>
         <h1>Report Incident</h1>
