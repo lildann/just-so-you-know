@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-function VenuePage (searchTerm) {
+function VenuePage () {
     const [venues, setVenues] = useState([]);
     useEffect(() => {
         fetch('http://localhost:8000/venues', {
