@@ -17,7 +17,7 @@ function VenuePage () {
 
    return (
     <div>
-        <h1> test</h1>
+        <h1>Incidents</h1>
         {venues.map((venue, index) => (
             <div key={index}>
                 <h2> Venue Name: {venue.name}</h2>
