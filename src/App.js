@@ -4,7 +4,7 @@ import "./App.css";
 
 import LandingPage from "./pages/LandingPage"
 import ReportPage from "./pages/ReportPage"
-import VenuePage from "./pages/venuePage";
+import VenuePage from "./pages/VenuePage";
 
 
 function App() {
