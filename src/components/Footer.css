@@ -1,0 +1,57 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    background-color:#854292 ;
+    color: white;
+}
+
+/* Galaxy fold */
+@media screen and (max-width: 280px) {
+    footer {
+        height: fit-content;
+    }
+  }
+
+.footer-logo {
+    width: 130px;
+    height: auto;
+}
+
+.logo-spacing {
+    padding: 20px 0px 10px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+
+    list-style-type: none;
+    /* text-decoration: none; */
+}
+
+.quick-links {
+    font-family: DM Serif Display;
+    padding: 0px 0px 10px;
+}
+
+.email-link a  {
+    padding: 20px 0px 0px;
+    color:white;
+    /* display: flex;
+    align-items: normal; */
+}
+
+.email-link {
+    display: flex;
+    align-items: normal;
+  }
+
+  .email-spacing {
+    padding: 0px 5px 0px;
+  }

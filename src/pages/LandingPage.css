@@ -1,0 +1,71 @@
+/* Landing Page styling here */
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+  
+    background-color: beige;
+  
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  
+    margin: auto;
+  }
+
+  .heading {
+    color:#854292;
+    font-family: DM Serif Display;
+  }
+
+  .text {
+    color:#854292;
+    /* font-family:Poppins; */
+  }
+  
+  .secondary-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    bottom: 0;
+    margin: 0px 0px 100px 0px;
+         
+  }
+
+  .image-container {
+    /* width:300px;
+    height:150px; */
+    text-align:center;
+      
+  }
+
+  .venue-button {
+    color:#450651;
+    background-color: #eb88427d;
+  }
+
+  .report-button{
+    border-radius: 5px;
+    color:white;
+    background-color:#E71E85;
+    border-color:#E71E85;
+  }
+
+  input, .main-container {
+    border-color:#eb88427d;
+     }
+.radius-right {
+    border-radius: 0px 10px 10px 0px;
+    border-color:#eb88427d;
+}
+
+
+::placeholder{
+  color: #854292;
+}
+
+
